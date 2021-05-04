@@ -25,14 +25,26 @@
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mqO-FK-mHe">
-                                <rect key="frame" x="157" y="782" width="100" height="40"/>
+                                <rect key="frame" x="53.5" y="782" width="100" height="40"/>
                                 <color key="backgroundColor" white="1" alpha="0.29999999999999999" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="100" id="DHm-VX-uGM"/>
                                     <constraint firstAttribute="height" constant="40" id="h6t-AH-a5Z"/>
                                 </constraints>
                                 <color key="tintColor" red="0.21176470589999999" green="0.70980392160000005" blue="0.61568627450000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <state key="normal" title="Button">
+                                <state key="normal" title="Combine">
+                                    <color key="titleColor" red="0.21176470589999999" green="0.70980392160000005" blue="0.61568627450000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NCR-WQ-spx">
+                                <rect key="frame" x="260.5" y="782" width="100" height="40"/>
+                                <color key="backgroundColor" white="1" alpha="0.29999999999999999" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="100" id="BUj-b9-Pj5"/>
+                                    <constraint firstAttribute="height" constant="40" id="iQh-GJ-HNP"/>
+                                </constraints>
+                                <color key="tintColor" red="0.21176470589999999" green="0.70980392160000005" blue="0.61568627450000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="RxSwift">
                                     <color key="titleColor" red="0.21176470589999999" green="0.70980392160000005" blue="0.61568627450000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                             </button>
@@ -40,17 +52,20 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
+                            <constraint firstItem="NCR-WQ-spx" firstAttribute="centerY" secondItem="mqO-FK-mHe" secondAttribute="centerY" id="5JA-hj-edb"/>
                             <constraint firstItem="JZ5-G9-79i" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="8g9-Us-23Q"/>
                             <constraint firstItem="mqO-FK-mHe" firstAttribute="top" secondItem="JZ5-G9-79i" secondAttribute="bottom" constant="40" id="FX5-CX-EWB"/>
                             <constraint firstItem="JZ5-G9-79i" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Pmj-DH-4HF"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="mqO-FK-mHe" secondAttribute="bottom" constant="40" id="aHb-Cu-y9U"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="JZ5-G9-79i" secondAttribute="trailing" constant="20" id="d8c-fh-37z"/>
+                            <constraint firstItem="NCR-WQ-spx" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" multiplier="3/2" id="j8T-mC-MhG"/>
                             <constraint firstItem="JZ5-G9-79i" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="50" id="pfk-hu-MxS"/>
-                            <constraint firstItem="mqO-FK-mHe" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="x0i-8A-M05"/>
+                            <constraint firstItem="mqO-FK-mHe" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" multiplier="1/2" id="x0i-8A-M05"/>
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="button" destination="mqO-FK-mHe" id="8CW-v3-ZDi"/>
+                        <outlet property="button1" destination="mqO-FK-mHe" id="CG7-AF-7ja"/>
+                        <outlet property="button2" destination="NCR-WQ-spx" id="kKg-Gz-HU2"/>
                         <outlet property="textView" destination="JZ5-G9-79i" id="9Gp-kG-oXN"/>
                     </connections>
                 </viewController>

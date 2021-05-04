@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -16,6 +16,8 @@
 		35A313EE2641CF1C00105CE2 /* CombineTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35A313ED2641CF1C00105CE2 /* CombineTestTests.swift */; };
 		35A313F92641CF1C00105CE2 /* CombineTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35A313F82641CF1C00105CE2 /* CombineTestUITests.swift */; };
 		35A314072641DB2900105CE2 /* Combine+UIControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35A314062641DB2900105CE2 /* Combine+UIControl.swift */; };
+		381EB22604D543C53FEF7D1A /* Pods_CombineTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE0EF6081FE175FDC7EF6E5D /* Pods_CombineTest.framework */; };
+		49598A54EF077908153E5B20 /* Pods_CombineTestTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B9AF12E089E32517230A299 /* Pods_CombineTestTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1560C7CD4240DF967508E5A4 /* Pods-CombineTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CombineTest.debug.xcconfig"; path = "Target Support Files/Pods-CombineTest/Pods-CombineTest.debug.xcconfig"; sourceTree = "<group>"; };
+		15D2F2A64B39F94572431D4A /* Pods-CombineTestTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CombineTestTests.debug.xcconfig"; path = "Target Support Files/Pods-CombineTestTests/Pods-CombineTestTests.debug.xcconfig"; sourceTree = "<group>"; };
+		1B9AF12E089E32517230A299 /* Pods_CombineTestTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CombineTestTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		22B71BF082E887353C98F1DE /* Pods-CombineTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CombineTest.release.xcconfig"; path = "Target Support Files/Pods-CombineTest/Pods-CombineTest.release.xcconfig"; sourceTree = "<group>"; };
+		34D29142C86E67A6A9694593 /* Pods-CombineTestTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CombineTestTests.release.xcconfig"; path = "Target Support Files/Pods-CombineTestTests/Pods-CombineTestTests.release.xcconfig"; sourceTree = "<group>"; };
 		35A313D32641CF1C00105CE2 /* CombineTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CombineTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		35A313D62641CF1C00105CE2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		35A313D82641CF1C00105CE2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -51,6 +58,7 @@
 		35A313F82641CF1C00105CE2 /* CombineTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CombineTestUITests.swift; sourceTree = "<group>"; };
 		35A313FA2641CF1C00105CE2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		35A314062641DB2900105CE2 /* Combine+UIControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Combine+UIControl.swift"; sourceTree = "<group>"; };
+		CE0EF6081FE175FDC7EF6E5D /* Pods_CombineTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CombineTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				381EB22604D543C53FEF7D1A /* Pods_CombineTest.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				49598A54EF077908153E5B20 /* Pods_CombineTestTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +88,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		20BD7C0D44C55A44DFDC4899 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1560C7CD4240DF967508E5A4 /* Pods-CombineTest.debug.xcconfig */,
+				22B71BF082E887353C98F1DE /* Pods-CombineTest.release.xcconfig */,
+				15D2F2A64B39F94572431D4A /* Pods-CombineTestTests.debug.xcconfig */,
+				34D29142C86E67A6A9694593 /* Pods-CombineTestTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		35A313CA2641CF1C00105CE2 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +106,8 @@
 				35A313EC2641CF1C00105CE2 /* CombineTestTests */,
 				35A313F72641CF1C00105CE2 /* CombineTestUITests */,
 				35A313D42641CF1C00105CE2 /* Products */,
+				20BD7C0D44C55A44DFDC4899 /* Pods */,
+				D83A4B7FBC345BFD5F3F5DA8 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -131,6 +154,15 @@
 			path = CombineTestUITests;
 			sourceTree = "<group>";
 		};
+		D83A4B7FBC345BFD5F3F5DA8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CE0EF6081FE175FDC7EF6E5D /* Pods_CombineTest.framework */,
+				1B9AF12E089E32517230A299 /* Pods_CombineTestTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -138,9 +170,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 35A313FD2641CF1C00105CE2 /* Build configuration list for PBXNativeTarget "CombineTest" */;
 			buildPhases = (
+				08C0221AF04532AF40C55BE4 /* [CP] Check Pods Manifest.lock */,
 				35A313CF2641CF1C00105CE2 /* Sources */,
 				35A313D02641CF1C00105CE2 /* Frameworks */,
 				35A313D12641CF1C00105CE2 /* Resources */,
+				F4FD8C62F7D8D6389716B2E0 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -155,6 +189,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 35A314002641CF1C00105CE2 /* Build configuration list for PBXNativeTarget "CombineTestTests" */;
 			buildPhases = (
+				86D9049AA96EA8F567C784DB /* [CP] Check Pods Manifest.lock */,
 				35A313E52641CF1C00105CE2 /* Sources */,
 				35A313E62641CF1C00105CE2 /* Frameworks */,
 				35A313E72641CF1C00105CE2 /* Resources */,
@@ -255,6 +290,70 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		08C0221AF04532AF40C55BE4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CombineTest-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		86D9049AA96EA8F567C784DB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CombineTestTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F4FD8C62F7D8D6389716B2E0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CombineTest/Pods-CombineTest-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CombineTest/Pods-CombineTest-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CombineTest/Pods-CombineTest-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		35A313CF2641CF1C00105CE2 /* Sources */ = {
@@ -437,11 +536,13 @@
 		};
 		35A313FE2641CF1C00105CE2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1560C7CD4240DF967508E5A4 /* Pods-CombineTest.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7UV8S5L9ZA;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = arm64;
 				INFOPLIST_FILE = CombineTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -456,11 +557,13 @@
 		};
 		35A313FF2641CF1C00105CE2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 22B71BF082E887353C98F1DE /* Pods-CombineTest.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7UV8S5L9ZA;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = arm64;
 				INFOPLIST_FILE = CombineTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -475,6 +578,7 @@
 		};
 		35A314012641CF1C00105CE2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 15D2F2A64B39F94572431D4A /* Pods-CombineTestTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -498,6 +602,7 @@
 		};
 		35A314022641CF1C00105CE2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 34D29142C86E67A6A9694593 /* Pods-CombineTestTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
